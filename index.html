@@ -1,12 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Odogo -> Home</title> 
         <link rel="stylesheet" href="css/style-sheet.css">
     </head>
     <body style="background-color:rgb(20, 20, 20);">
-        <p class="centered" style="top:48%; color:red; font-size: 28px;">HEY! I know I said this website exist, but I didn't say it was ready.</p>
-        <p class="centered" style="top:52%; color:gray; font-size: 18px;">It's getting there, give me a few. In the mean <a style="color: aqua" href="pog.html">time...</a></p>
-</html>
+        <h1 class="center-justified" style="color:lightskyblue; font-size: 38px;">Odogo</h1>
+        <h3 class="center-justified" style="color:lightsalmon; font-size: 20px;">-[ Streamer & Developer ]-</h3>
+         
+        <div class="center-justified" id="twitch-embed"></div>
+        <script src="https://embed.twitch.tv/embed/v1.js"></script>
+        <script type="text/javascript">
+            new Twitch.Embed("twitch-embed", {
+                width: "90%",
+                height: "300px",
+                channel: "odogo3",
+                parent: [""]
+            });
+        </script>
+    </body>
+</html> 
