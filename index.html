@@ -9,14 +9,16 @@
         <h1 class="center-justified" style="color:lightskyblue; font-size: 38px;">Odogo</h1>
         <h3 class="center-justified" style="color:lightsalmon; font-size: 20px;">-[ Streamer & Developer ]-</h3>
          
-        <div class="center-justified" id="twitch-embed"></div>
         <script src="https://embed.twitch.tv/embed/v1.js"></script>
+        <div class="center-justified" id="twitch-embed"></div>
         <script type="text/javascript">
             new Twitch.Embed("twitch-embed", {
                 width: "90%",
                 height: "300px",
                 channel: "odogo3",
-                parent: [""]
+                layout: "video",
+                autoplay: false,
+                parent: ["odogo.arkala.net"]
             });
         </script>
     </body>
