@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"odogo.lib.creature","l":"OCreature.HealthInfo"},{"p":"odogo.lib.creature","l":"OBossCreature"},{"p":"odogo.lib.creature","l":"OCreature"},{"p":"odogo.lib","l":"OdogoLib"},{"p":"odogo.lib.util","l":"OMath"}];updateSearchResults();
